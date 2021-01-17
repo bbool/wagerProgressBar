@@ -1,8 +1,5 @@
-import lucky8 from './lucky8.svg';
-import casinoextra from './casino-extra.svg';
-import fatboss from './fatboss.png';
-import stake from './stake.svg';
-import tortuga from './tortuga.png';
+import CasinoLogo from './components/CasinoLogo.js';
+
 import 'tailwindcss/tailwind.css';
 import './App.css';
 
@@ -13,29 +10,19 @@ function App() {
         <div id="containerLogos" className="flex container">
           <div className="grid gap-5 grid-cols-5 place-content-center">
             <div className="flex justify-center items-center">
-              <a href="#">
-                <img src={lucky8} className="casino-logo" alt="logo" />
-              </a>
+              <CasinoLogo name="lucky8" extension="svg"/>
             </div>
             <div className="flex justify-center items-center">
-              <a href="#">
-                <img src={casinoextra} className="casino-logo" alt="logo" />
-              </a>
+              <CasinoLogo name="casino-extra" extension="svg"/>
             </div>
             <div className="flex justify-center items-center">
-              <a href="#">
-                <img src={fatboss} className="casino-logo" alt="logo" />
-              </a>
+              <CasinoLogo name="fatboss" extension="png"/>
             </div>
             <div className="flex justify-center items-center">
-              <a href="#">
-                <img src={stake} className="casino-logo" alt="logo" />
-              </a>
+              <CasinoLogo name="stake" extension="svg"/>
             </div>
             <div className="flex justify-center items-center">
-              <a href="#">
-                <img src={tortuga} className="casino-logo" alt="logo" />
-              </a>
+              <CasinoLogo name="tortuga" extension="png"/>
             </div>
           </div>
         </div>
