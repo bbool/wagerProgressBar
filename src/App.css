@@ -21,3 +21,8 @@
 .App-link {
   color: #61dafb;
 }
+
+.logo-selected {
+  border: 2px solid white;
+  border-radius: 10px;
+}

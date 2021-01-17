@@ -9,21 +9,11 @@ function App() {
       <header className="App-header">
         <div id="containerLogos" className="flex container">
           <div className="grid gap-5 grid-cols-5 place-content-center">
-            <div className="flex justify-center items-center">
-              <CasinoLogo name="lucky8" extension="svg"/>
-            </div>
-            <div className="flex justify-center items-center">
-              <CasinoLogo name="casino-extra" extension="svg"/>
-            </div>
-            <div className="flex justify-center items-center">
-              <CasinoLogo name="fatboss" extension="png"/>
-            </div>
-            <div className="flex justify-center items-center">
-              <CasinoLogo name="stake" extension="svg"/>
-            </div>
-            <div className="flex justify-center items-center">
-              <CasinoLogo name="tortuga" extension="png"/>
-            </div>
+            <CasinoLogo name="lucky8" extension="svg"/>
+            <CasinoLogo name="casino-extra" extension="svg"/>
+            <CasinoLogo name="fatboss" extension="png"/>
+            <CasinoLogo name="stake" extension="svg"/>
+            <CasinoLogo name="tortuga" extension="png"/>
           </div>
         </div>
         <br />
